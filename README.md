@@ -1,3 +1,19 @@
+# Neja: Stateless Cloud Functions for Substrate
+
+Neja introduces a new paradigm in the space with the concept of Cloud Functions on Parachains. A cloud function is a simple script that has no state of its own but manages a keyless Substrate account and can execute any parachain extrinsics.
+
+Neja is the simplest programmability solution for dApps on Polkadot.
+
+For example, a dApp that wants to leverage existing pallets of a parachain but needs an additional function, such as having an on-chain, verified KILT DID-gated community on Subsocial, can now achieve this with Neja—without the need to write a smart contract.
+
+
+## Neja Pallet
+
+Neja Pallet is a simple utility that any parachain can add to bring cloud function programbility on their chain, developers can write simple stateless functions that utilises multiple-parachain pallets to serve interesting usecases. These are new apps with custom experiences, having verifiable frontends for their users.
+
+
+------
+
 # Substrate Node Template
 
 A fresh [Substrate](https://substrate.io/) node, ready for hacking :rocket:
