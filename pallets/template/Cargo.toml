@@ -24,7 +24,7 @@ frame-support.workspace = true
 frame-system.workspace = true
 wasmi.workspace = true
 sp-runtime = { default-features = false, workspace = true }
-log = { defalut-features = false, workspace = true }
+log.workspace = true
 
 [dev-dependencies]
 sp-core = { default-features = true, workspace = true }
